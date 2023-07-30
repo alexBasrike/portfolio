@@ -24,10 +24,14 @@ export const Footer = () => {
 };
 
 const StyledFooter = styled.footer `
-  padding: 114px 0 114px 0;
+  padding: 108px 0 114px 0;
   text-align: center;
   
+  h2 {
+    margin: 0 0 24px 0;
+  }
+  
   p {
-    margin: 0 0 29px 0;
+    margin: 0 0 33px 0;
   }
 `;

@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from "styled-components";
+import {Theme} from "../../styles/Theme";
 
 export const SocialShare = () => {
     return (
@@ -16,9 +17,38 @@ export const SocialShare = () => {
 };
 
 const StyledSocialShare = styled.div `
-  margin: 45px 0 0 0;
+  margin: 38px 0 0 0;
+  line-height: 17px;
+  font-size: 14px;
+  color: ${Theme.colors.secondary};
   
     p {
       margin: 0 !important;
     }
+  
+  a {
+    position: relative;
+    
+    &:before {
+      background-color: ${Theme.colors.secondary};
+      display: block;
+      width: 0%;
+      height: 1px;
+      overflow: hidden;
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      transition: width 0.4s;
+      content: '';
+    }
+    
+    &:hover {
+      
+      &:before {
+        width: 100%;
+        right: auto;
+        left: 0;
+      }
+    }
+  }
 `;

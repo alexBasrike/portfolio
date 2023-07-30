@@ -17,5 +17,5 @@ export const Main = () => {
 };
 
 const StyledMain = styled.main`
-  padding: 89px 0 0 0;
+  padding: 98px 0 0 0;
 `;

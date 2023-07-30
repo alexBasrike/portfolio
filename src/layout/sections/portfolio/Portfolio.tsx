@@ -7,6 +7,7 @@ import {PortfolioItem} from "./PortfolioItem";
 import PortfolioImage1 from "../../../assets/images/portfolio-01.jpg";
 import PortfolioImage2 from "../../../assets/images/portfolio-02.jpg";
 import PortfolioImage3 from "../../../assets/images/portfolio-03.jpg";
+import {Theme} from "../../../styles/Theme";
 
 export const Portfolio = () => {
     return (
@@ -22,6 +23,10 @@ export const Portfolio = () => {
 };
 
 const StyledPortfolio = styled.section `
-  background-color: #F6F6F6;
-  padding: 112px 0 96px 0;
+  background-color: ${Theme.colors.background};
+  padding: 107px 0 100px 0;
+  
+  h2 {
+    margin: 0 0 54px 0;
+  }
 `;

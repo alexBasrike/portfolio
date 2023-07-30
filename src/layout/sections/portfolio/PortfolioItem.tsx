@@ -28,13 +28,24 @@ export const PortfolioItem = ( props: PortfolioItemPropsType ) => {
 
 const StyledPortfolioItem = styled.div `
   width: 100%;
-  margin: 0 0 99px 0;
+  margin: 0 0 102px 0;
+  
+  &:first-of-type {
+    
+    figure {
+      height: 510px;
+    }
+  }
+  
+  &:last-of-type {
+    margin: 0;
+  }
   
   figure {
     width: 100%;
-    height: 510px;
+    height: 522px;
     overflow: hidden;
-    margin: 0 0 44px 0;
+    margin: 0 0 42px 0;
     
     img {
       width: 100%;

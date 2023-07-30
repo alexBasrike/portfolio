@@ -1,11 +1,14 @@
-import React from 'react';
 import styled from "styled-components";
 import {Container} from "../../components/container/Container";
 import {Navigation} from "../../components/navigation/Navigation";
 
-export const Header = () => {
+type HeaderPropsType = {
+    ClassName?: string
+}
+
+export const Header = ( props: HeaderPropsType ) => {
     return (
-        <StyledHeader>
+        <StyledHeader className={props.ClassName}>
             <Container>
 
                 <Navigation/>
@@ -21,6 +24,7 @@ export const StyledHeader = styled.header `
   top: 0;
   right: 0;
   left: 0;
+  padding: 38px 0 38px 0;
   z-index: 99;
   
   &:before {

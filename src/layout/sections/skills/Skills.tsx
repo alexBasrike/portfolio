@@ -25,18 +25,17 @@ export const Skills = () => {
 };
 
 const StyledSkills = styled.section `
-  padding: 91px 0 91px 0;
+  padding: 84px 0 109px 0;
   text-align: center;
+  
+  h2 {
+    margin: 0 0 57px 0;
+  }
 `;
 
 const StyledSkillsList = styled.div `
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
-  margin: 83px 0 0 0;
-  
-  > div {
-    width: 25%;
-    padding: 0 20px;
-    box-sizing: border-box;
-  }
+  margin: 87px 0 0 0;
 `;

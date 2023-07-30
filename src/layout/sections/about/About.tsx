@@ -18,10 +18,14 @@ export const About = () => {
 
 const StyledAbout = styled.section `
   background-color: #F6F6F6;
-  padding: 120px 0 85px 0;
+  padding: 114px 0 87px 0;
   text-align: center;
   
   p {
-    margin: 0 0 22px 0;
+    margin: 0 0 44px 0;
+    
+    &:last-of-type {
+      margin: 0 0 22px 0;
+    }
   }
 `;

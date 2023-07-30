@@ -1,11 +1,12 @@
 import React from 'react';
 import styled from "styled-components";
+import {Theme} from "../../styles/Theme";
 
 export const Navigation = () => {
     return (
         <StyledMenu>
             <ul>
-                <li>
+                <li className={"active"}>
                     <a href="#!">Home</a>
                 </li>
                 <li>
@@ -30,5 +31,24 @@ const StyledMenu = styled.nav `
     ul {
       display: flex;
       justify-content: space-between;
+      
+      li {
+        
+        &.active {
+          
+          a {
+            color: ${Theme.colors.primary};
+          }
+        }
+        
+        a {
+          font-weight: bold;
+          color: ${Theme.colors.secondary};
+          
+          &:hover {
+            color: ${Theme.colors.primary};
+          }
+        }
+      }
     }
 `;
