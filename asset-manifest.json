@@ -1,20 +1,26 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.a32cc454.css",
-    "main.js": "/portfolio/static/js/main.e3810188.js",
+    "main.css": "/portfolio/static/css/main.644566f7.css",
+    "main.js": "/portfolio/static/js/main.ac2551a9.js",
     "static/js/787.25eaef86.chunk.js": "/portfolio/static/js/787.25eaef86.chunk.js",
     "static/media/svg-sprite.svg": "/portfolio/static/media/svg-sprite.954fcf35796c4e25adc4d232bf176573.svg",
     "static/media/person.jpg": "/portfolio/static/media/person.155e04096dea6bb96ced.jpg",
     "static/media/portfolio-02.jpg": "/portfolio/static/media/portfolio-02.eeb3a680bd2e6285da22.jpg",
     "static/media/portfolio-01.jpg": "/portfolio/static/media/portfolio-01.e4bb6404d53ed97d5e82.jpg",
     "static/media/portfolio-03.jpg": "/portfolio/static/media/portfolio-03.2286b59030f4e7113570.jpg",
+    "static/media/Gilroy-Medium.eot": "/portfolio/static/media/Gilroy-Medium.b84941b7bdcce7cbba6d.eot",
+    "static/media/Gilroy-Medium.ttf": "/portfolio/static/media/Gilroy-Medium.f9f832b0ed3f1ab138c9.ttf",
+    "static/media/Gilroy-Bold.eot": "/portfolio/static/media/Gilroy-Bold.a732fed1bc6140852a0b.eot",
+    "static/media/Gilroy-Bold.ttf": "/portfolio/static/media/Gilroy-Bold.b900325e44ec0c673e88.ttf",
+    "static/media/Gilroy-Medium.woff": "/portfolio/static/media/Gilroy-Medium.2bc7f5d7ea77ee1bddb3.woff",
+    "static/media/Gilroy-Bold.woff": "/portfolio/static/media/Gilroy-Bold.5fb38b9fa452b5814397.woff",
     "index.html": "/portfolio/index.html",
-    "main.a32cc454.css.map": "/portfolio/static/css/main.a32cc454.css.map",
-    "main.e3810188.js.map": "/portfolio/static/js/main.e3810188.js.map",
+    "main.644566f7.css.map": "/portfolio/static/css/main.644566f7.css.map",
+    "main.ac2551a9.js.map": "/portfolio/static/js/main.ac2551a9.js.map",
     "787.25eaef86.chunk.js.map": "/portfolio/static/js/787.25eaef86.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a32cc454.css",
-    "static/js/main.e3810188.js"
+    "static/css/main.644566f7.css",
+    "static/js/main.ac2551a9.js"
   ]
 }
