@@ -1,5 +1,5 @@
 import React from "react";
-import {SvgSprite} from "../icon/Icon";
+import {Icon} from "../icon/Icon";
 import styled from "styled-components";
 
 type RatingPropsType = {
@@ -87,11 +87,11 @@ type StarPropsType = {
 function Star(props: StarPropsType) {
     if ( props.selected === true ) {
         return (
-            <SvgSprite iconId={"iconStarFill"} iconWidth={"26"} iconHeight={"26"} iconViewBox={"0 0 26 26"}/>
+            <Icon iconId={"iconStarFill"} iconWidth={"26"} iconHeight={"26"} iconViewBox={"0 0 26 26"}/>
         );
     } else {
         return (
-            <SvgSprite iconId={"iconStar"} iconWidth={"26"} iconHeight={"26"} iconViewBox={"0 0 26 26"}/>
+            <Icon iconId={"iconStar"} iconWidth={"26"} iconHeight={"26"} iconViewBox={"0 0 26 26"}/>
         );
     }
 }
