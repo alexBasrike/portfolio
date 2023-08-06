@@ -2,6 +2,7 @@ import React from 'react';
 import styled from "styled-components";
 import {H2} from "../../../components/headings/H2";
 import {Container} from "../../../components/container/Container";
+import {Theme} from "../../../styles/Theme";
 
 export const About = () => {
     return (
@@ -21,11 +22,22 @@ const StyledAbout = styled.section `
   padding: 114px 0 87px 0;
   text-align: center;
   
+  @media ${Theme.media.tablet} {
+    padding: 70px 0 54px 0;
+  }
+  
   p {
     margin: 0 0 44px 0;
     
     &:last-of-type {
       margin: 0 0 22px 0;
+    }
+    
+    br {
+      
+      @media ${Theme.media.mobile} {
+        display: none;
+      }
     }
   }
 `;

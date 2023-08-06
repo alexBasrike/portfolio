@@ -32,6 +32,11 @@ export const Author = () => {
 const SectionPerson = styled.section`
   margin: 0 0 104px 0;
   padding: 31px 0 0 0;
+  
+  @media ${Theme.media.tablet} {
+    margin: 0 0 70px 0;
+    padding: 50px 0 0 0;
+  }
 
     > div {
       display: flex;
@@ -50,6 +55,11 @@ const PersonName = styled.h1`
 const PersonText = styled.h2 `
   width: 222px;
   padding: 0 0 12px 0;
+
+  @media ${Theme.media.mobile} {
+    width: auto;
+    padding: 0 20px 9px 0;
+  }
 `;
 
 const SiteLanguage = styled.nav `
@@ -102,6 +112,14 @@ const PersonImage = styled.figure`
   height: 387px;
   overflow: hidden;
   margin: 40px 0 0 0;
+
+  @media ${Theme.media.tablet} {
+    height: 300px;
+  }
+
+  @media ${Theme.media.mobile} {
+    height: 200px;
+  }
   
   img {
       width: 100%;

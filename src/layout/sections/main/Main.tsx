@@ -4,6 +4,7 @@ import {Author} from "../author/Author";
 import {About} from "../about/About";
 import {Skills} from "../skills/Skills";
 import {Portfolio} from "../portfolio/Portfolio";
+import {Theme} from "../../../styles/Theme";
 
 export const Main = () => {
     return (
@@ -18,4 +19,8 @@ export const Main = () => {
 
 const StyledMain = styled.main`
   padding: 98px 0 0 0;
+  
+  @media ${Theme.media.tablet} {
+    padding: 50px 0 0 0;
+  }
 `;

@@ -5,6 +5,7 @@ import {H2} from "../../components/headings/H2";
 import {Button} from "../../components/button/Button";
 import {SocialIcons} from "../../components/social/SocialIcons";
 import {SocialShare} from "../../components/social/SocialShare";
+import {Theme} from "../../styles/Theme";
 
 export const Footer = () => {
     return (
@@ -26,6 +27,10 @@ export const Footer = () => {
 const StyledFooter = styled.footer `
   padding: 108px 0 114px 0;
   text-align: center;
+  
+  @media ${Theme.media.tablet} {
+    padding: 70px 0 76px 0;
+  }
   
   h2 {
     margin: 0 0 24px 0;

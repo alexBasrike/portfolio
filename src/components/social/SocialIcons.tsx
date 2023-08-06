@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from "styled-components";
 import {SocialIconsItem} from "./SocialIconsItem";
+import {Theme} from "../../styles/Theme";
 
 export const SocialIcons = () => {
     return (
@@ -18,7 +19,7 @@ const StyledSocialIcons = styled.div `
   justify-content: center;
   margin: 86px 0 0 0;
   
-  > div {
-    padding: 0 30px;
+  @media ${Theme.media.tablet} {
+    margin: 70px 0 0 0;
   }
 `;

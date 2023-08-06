@@ -26,7 +26,15 @@ const StyledPortfolio = styled.section `
   background-color: ${Theme.colors.background};
   padding: 107px 0 100px 0;
   
+  @media ${Theme.media.tablet} {
+    padding: 70px 0 80px 0;
+  }
+  
   h2 {
     margin: 0 0 54px 0;
+    
+    @media ${Theme.media.tablet} {
+      margin: 0 0 22px 0;
+    }
   }
 `;

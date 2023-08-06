@@ -120,20 +120,23 @@ export const GlobalStyled = createGlobalStyle `
 
     /* --- Responsive CSS start --- */
 
-    //@function vw($px) {
-    //  @return (($px / 1440) * 100) * 1vw;
-    //}
-    //
-    //@function vwm($px) {
-    //  @return (($px / 375) * 100) * 1vw;
-    //}
+    @function vw($px) {
+      @return calc(($px / 1440) * 100) * 1vw;
+    }
+
+    @function vwm($px) {
+      @return calc(($px / 375) * 100) * 1vw;
+    }
     
     /* --- Responsive CSS end --- */
-    
-    
+
+
+
+    /* --- Common CSS start --- */
     
     body {
       background: ${Theme.colors.light};
+      min-width: 375px;
       line-height: 22px;
       font-family: ${Theme.font.primary};
       font-size: 18px;
@@ -155,5 +158,7 @@ export const GlobalStyled = createGlobalStyle `
       max-width: 100%;
       vertical-align: top;
     }
+
+    /* --- Common CSS end --- */
     
 `;

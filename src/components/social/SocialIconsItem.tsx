@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from "styled-components";
 import {Icon} from "../icon/Icon";
+import {Theme} from "../../styles/Theme";
 
 type SocialIconsItemPropsType = {
     link: string
@@ -21,6 +22,11 @@ export const SocialIconsItem = ( props: SocialIconsItemPropsType ) => {
 };
 
 const StyledSocialIconsItem = styled.div `
+  padding: 0 30px;
+  
+  @media ${Theme.media.mobile} {
+    padding: 0 15px;
+  }
 
     a {
       

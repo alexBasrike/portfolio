@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from "styled-components";
 import {H3} from "../../../components/headings/H3";
+import {Theme} from "../../../styles/Theme";
 
 type PortfolioItemPropsType = {
     Title: string
@@ -30,10 +31,22 @@ const StyledPortfolioItem = styled.div `
   width: 100%;
   margin: 0 0 102px 0;
   
+  @media ${Theme.media.tablet} {
+    margin: 0 0 50px 0;
+  }
+  
   &:first-of-type {
     
     figure {
       height: 510px;
+
+      @media ${Theme.media.tablet} {
+        height: 402px;
+      }
+
+      @media ${Theme.media.mobile} {
+        height: 199px;
+      }
     }
   }
   
@@ -46,6 +59,15 @@ const StyledPortfolioItem = styled.div `
     height: 522px;
     overflow: hidden;
     margin: 0 0 42px 0;
+
+    @media ${Theme.media.tablet} {
+      height: 402px;
+      margin: 0 0 22px 0;
+    }
+    
+    @media ${Theme.media.mobile} {
+      height: 199px;
+    }
     
     img {
       width: 100%;

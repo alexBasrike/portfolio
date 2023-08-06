@@ -28,6 +28,10 @@ export const Navigation = () => {
 
 const StyledMenu = styled.nav `
   
+  @media ${Theme.media.tablet} {
+    display: none;
+  }
+  
     ul {
       display: flex;
       justify-content: space-between;
